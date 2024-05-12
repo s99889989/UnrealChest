@@ -1,0 +1,1584 @@
+Gui:
+  Type: Chest
+  Position: '5'
+  X: '0'
+  Y: '0'
+  Width: '260'
+  Height: '200'
+  Image: gui/background/background_1.png
+  Color: ffffff
+  Transparent: '255'
+  Mask: 'true'
+  Tooltip: ''
+ContentList:
+  ButtonDefaultChannel:
+    Type: Button
+    Position: 7
+    X: 0
+    Y: 0
+    Color: '#FFFFFF'
+    HoverColor: '#1e90ff'
+    ClickColor: '#1e90ff'
+    Transparent: 255
+    Width: 40
+    Height: 10
+    Text: 'Default'
+    TextColor: 00CACA
+    TextSize: 1
+    ToGUI: 'ChatDefault'
+  Head:
+    Type: Image
+    Position: '1'
+    X: '10'
+    Y: '10'
+    Width: '18'
+    Height: '18'
+    Image: 'https://minotar.net/avatar/{player_self_uuid}'
+    Color: '#ffffff'
+    Transparent: '255'
+  Name:
+    Type: Text
+    Position: '1'
+    X: '10'
+    Y: '40'
+    Text:
+    - '{player_self_name}'
+    TextColor: '#578d8d'
+    TextSize: '1'
+    Space: '10'
+  PlayerEntity:
+    Type: Entity
+    Position: '4'
+    X: '10'
+    Y: '0'
+    EntityType: Player
+    EntityName: '{player_self_name}'
+    EntitySize: '18'
+  Slot0:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '0'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot1:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '1'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot2:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '2'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot3:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '3'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot4:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '4'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot5:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '5'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot6:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '6'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot7:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '7'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot8:
+    Type: Slot
+    Position: '4'
+    X: '50'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '8'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot9:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '9'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot10:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '10'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot11:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '11'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot12:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '12'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot13:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '13'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot14:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '14'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot15:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '15'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot16:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '16'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot17:
+    Type: Slot
+    Position: '4'
+    X: '70'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '17'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot18:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '18'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot19:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '19'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot20:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '20'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot21:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '21'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot22:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '22'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot23:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '23'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot24:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '24'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot25:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '25'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot26:
+    Type: Slot
+    Position: '4'
+    X: '90'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '26'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot27:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '27'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot28:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '28'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot29:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '29'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot30:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '30'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot31:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '31'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot32:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '32'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot33:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '33'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot34:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '34'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot35:
+    Type: Slot
+    Position: '4'
+    X: '110'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '35'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot36:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '36'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot37:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '37'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot38:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '38'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot39:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '39'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot40:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '40'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot41:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '41'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot42:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '42'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot43:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '43'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot44:
+    Type: Slot
+    Position: '4'
+    X: '130'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '44'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot45:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '45'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot46:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '46'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot47:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '47'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot48:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '48'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot49:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '49'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot50:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '50'
+    ItemSize: '1'
+    Hover: 'item'
+  Slot51:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '51'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot52:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '52'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot53:
+    Type: Slot
+    Position: '4'
+    X: '150'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '53'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot54:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '54'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot55:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '55'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot56:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '56'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot57:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '57'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot58:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '58'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot59:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '59'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot60:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '60'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot61:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '61'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot62:
+    Type: Slot
+    Position: '4'
+    X: '170'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '62'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot63:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '63'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot64:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '64'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot65:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '65'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot66:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '66'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot67:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '67'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot68:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '68'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot69:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '69'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot70:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '70'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot71:
+    Type: Slot
+    Position: '4'
+    X: '190'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '71'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot72:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '72'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot73:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '73'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot74:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '74'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot75:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '75'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot76:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '76'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot77:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '77'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot78:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '78'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot79:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '79'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot80:
+    Type: Slot
+    Position: '4'
+    X: '210'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot4.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '80'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot81:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '-80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '81'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot82:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '-60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '82'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot83:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '-40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '83'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot84:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '-20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '84'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot85:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '0'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '85'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot86:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '20'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '86'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot87:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '40'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '87'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot88:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '60'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '88'
+    ItemSize: '1'
+    Hover: 'item'
+    
+  Slot89:
+    Type: Slot
+    Position: '4'
+    X: '230'
+    Y: '80'
+    Width: '18'
+    Height: '18'
+    Image: gui/slot/slot3.png
+    Color: '0xffffff'
+    Transparent: '255'
+    HoverMargin: '1'
+    HoverColor: '0xffffff'
+    HoverTransparent: '100'
+    Slot: '89'
+    ItemSize: '1'
+    Hover: 'item'

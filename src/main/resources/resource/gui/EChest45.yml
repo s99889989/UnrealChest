@@ -1,0 +1,998 @@
+#GUI
+#{window_w}{window_h}
+#{mouse_x}{mouse_y}
+#{background_xs}{background_xe}{background_ys}{background_ye}{background_w}{background_h}
+Gui:
+  #類型(Inventory, Chest)
+  Type: 'Chest'
+  #背景透明度(0~255)
+  Transparent: 255
+  #背景顏色
+  Color: 'ffffff'
+  #GUI圖片
+  Image: 'gui/background/background_1.png'
+  #GUI寬度，設-1為根據圖片尺寸。
+  Width: 200
+  #GUI高度，設-1為根據圖片尺寸。
+  Height: 240
+  #GUI的X偏移
+  Position: '5'
+  X: '0'
+  #GUI的Y偏移
+  Y: '0'
+
+#GUI上的物件
+ContentList:
+  Head:
+    Type: Image
+    Position: '1'
+    X: '10'
+    Y: '10'
+    Width: '18'
+    Height: '18'
+    Image: 'https://minotar.net/avatar/{player_self_uuid}'
+    Color: '#ffffff'
+    Transparent: '255'
+  Name:
+    Type: Text
+    Position: '1'
+    X: '32'
+    Y: '13'
+    Text:
+    - '{player_self_name}'
+    TextColor: '#578d8d'
+    TextSize: '1'
+    Space: '10'
+  PlayerEntity:
+    Type: Entity
+    Position: '2'
+    X: '0'
+    Y: '5'
+    EntityType: Player
+    EntityName: '{player_self_name}'
+    EntitySize: '18'
+
+#箱子第1排
+#--------------------------#
+  Slot0:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 0
+    ItemSize: 1
+    X: '-80'
+    Y: '50'
+    
+    
+  Slot1:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 1
+    ItemSize: 1
+    X: '-60'
+    Y: '50'
+    
+    
+  Slot2:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 2
+    ItemSize: 1
+    X: '-40'
+    Y: '50'
+    
+    
+  Slot3:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 3
+    ItemSize: 1
+    X: '-20'
+    Y: '50'
+    
+    
+  Slot4:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 4
+    ItemSize: 1
+    X: '0'
+    Y: '50'
+    
+    
+  Slot5:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 5
+    ItemSize: 1
+    X: '20'
+    Y: '50'
+    
+    
+  Slot6:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 6
+    ItemSize: 1
+    X: '40'
+    Y: '50'
+    
+    
+  Slot7:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 7
+    ItemSize: 1
+    X: '60'
+    Y: '50'
+    
+    
+  Slot8:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 8
+    ItemSize: 1
+    X: '80'
+    Y: '50'
+    
+
+#箱子第2排
+#--------------------------#
+  Slot9:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 9
+    ItemSize: 1
+    X: '-80'
+    Y: '70'
+    
+    
+  Slot10:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 10
+    ItemSize: 1
+    X: '-60'
+    Y: '70'
+    
+    
+  Slot11:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 11
+    ItemSize: 1
+    X: '-40'
+    Y: '70'
+    
+    
+  Slot12:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 12
+    ItemSize: 1
+    X: '-20'
+    Y: '70'
+    
+    
+  Slot13:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 13
+    ItemSize: 1
+    X: '0'
+    Y: '70'
+    
+    
+  Slot14:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 14
+    ItemSize: 1
+    X: '20'
+    Y: '70'
+  Slot15:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 15
+    ItemSize: 1
+    X: '40'
+    Y: '70'
+  Slot16:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 16
+    ItemSize: 1
+    X: '60'
+    Y: '70'
+  Slot17:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 17
+    ItemSize: 1
+    X: '80'
+    Y: '70'
+
+#箱子第3排
+#--------------------------#
+  Slot18:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 18
+    ItemSize: 1
+    X: '-80'
+    Y: '90'
+  Slot19:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 19
+    ItemSize: 1
+    X: '-60'
+    Y: '90'
+  Slot20:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 20
+    ItemSize: 1
+    X: '-40'
+    Y: '90'
+  Slot21:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 21
+    ItemSize: 1
+    X: '-20'
+    Y: '90'
+  Slot22:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 22
+    ItemSize: 1
+    X: '0'
+    Y: '90'
+  Slot23:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 23
+    ItemSize: 1
+    X: '20'
+    Y: '90'
+  Slot24:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 24
+    ItemSize: 1
+    X: '40'
+    Y: '90'
+  Slot25:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 25
+    ItemSize: 1
+    X: '60'
+    Y: '90'
+  Slot26:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 26
+    ItemSize: 1
+    X: '80'
+    Y: '90'
+
+#箱子第4排
+#--------------------------#
+  Slot27:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 27
+    ItemSize: 1
+    X: '-80'
+    Y: '110'
+  Slot28:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 28
+    ItemSize: 1
+    X: '-60'
+    Y: '110'
+  Slot29:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 29
+    ItemSize: 1
+    X: '-40'
+    Y: '110'
+  Slot30:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 30
+    ItemSize: 1
+    X: '-20'
+    Y: '110'
+  Slot31:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 31
+    ItemSize: 1
+    X: '0'
+    Y: '110'
+  Slot32:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 32
+    ItemSize: 1
+    X: '20'
+    Y: '110'
+  Slot33:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 33
+    ItemSize: 1
+    X: '40'
+    Y: '110'
+  Slot34:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 34
+    ItemSize: 1
+    X: '60'
+    Y: '110'
+  Slot35:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 35
+    ItemSize: 1
+    X: '80'
+    Y: '110'
+
+#箱子第5排
+#--------------------------#
+  Slot36:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 36
+    ItemSize: 1
+    X: '-80'
+    Y: '130'
+  Slot37:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 37
+    ItemSize: 1
+    X: '-60'
+    Y: '130'
+  Slot38:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 38
+    ItemSize: 1
+    X: '-40'
+    Y: '130'
+  Slot39:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 39
+    ItemSize: 1
+    X: '-20'
+    Y: '130'
+  Slot40:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 40
+    ItemSize: 1
+    X: '0'
+    Y: '130'
+  Slot41:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 41
+    ItemSize: 1
+    X: '20'
+    Y: '130'
+  Slot42:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 42
+    ItemSize: 1
+    X: '40'
+    Y: '130'
+  Slot43:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 43
+    ItemSize: 1
+    X: '60'
+    Y: '130'
+  Slot44:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot.png'
+    Width: 18
+    Height: 18
+    Slot: 44
+    ItemSize: 1
+    X: '80'
+    Y: '130'
+
+#背包第1排
+#--------------------------#
+  Slot45:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 45
+    ItemSize: 1
+    X: '-80'
+    Y: '150'
+  Slot46:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 46
+    ItemSize: 1
+    X: '-60'
+    Y: '150'
+  Slot47:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 47
+    ItemSize: 1
+    X: '-40'
+    Y: '150'
+  Slot48:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 48
+    ItemSize: 1
+    X: '-20'
+    Y: '150'
+  Slot49:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 49
+    ItemSize: 1
+    X: '0'
+    Y: '150'
+  Slot50:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 50
+    ItemSize: 1
+    X: '20'
+    Y: '150'
+  Slot51:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 51
+    ItemSize: 1
+    X: '40'
+    Y: '150'
+  Slot52:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 52
+    ItemSize: 1
+    X: '60'
+    Y: '150'
+  Slot53:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 53
+    ItemSize: 1
+    X: '80'
+    Y: '150'
+
+#背包第2排
+#--------------------------#
+  Slot54:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 54
+    ItemSize: 1
+    X: '-80'
+    Y: '170'
+  Slot55:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 55
+    ItemSize: 1
+    X: '-60'
+    Y: '170'
+  Slot56:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 56
+    ItemSize: 1
+    X: '-40'
+    Y: '170'
+  Slot57:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 57
+    ItemSize: 1
+    X: '-20'
+    Y: '170'
+  Slot58:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 58
+    ItemSize: 1
+    X: '0'
+    Y: '170'
+  Slot59:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 59
+    ItemSize: 1
+    X: '20'
+    Y: '170'
+  Slot60:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 60
+    ItemSize: 1
+    X: '40'
+    Y: '170'
+  Slot61:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 61
+    ItemSize: 1
+    X: '60'
+    Y: '170'
+  Slot62:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 62
+    ItemSize: 1
+    X: '80'
+    Y: '170'
+
+#背包第3排
+#--------------------------#
+  Slot63:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 63
+    ItemSize: 1
+    X: '-80'
+    Y: '190'
+  Slot64:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 64
+    ItemSize: 1
+    X: '-60'
+    Y: '190'
+  Slot65:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 65
+    ItemSize: 1
+    X: '-40'
+    Y: '190'
+  Slot66:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 66
+    ItemSize: 1
+    X: '-20'
+    Y: '190'
+  Slot67:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 67
+    ItemSize: 1
+    X: '0'
+    Y: '190'
+  Slot68:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 68
+    ItemSize: 1
+    X: '20'
+    Y: '190'
+  Slot69:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 69
+    ItemSize: 1
+    X: '40'
+    Y: '190'
+  Slot70:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 70
+    ItemSize: 1
+    X: '60'
+    Y: '190'
+  Slot71:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot4.png'
+    Width: 18
+    Height: 18
+    Slot: 71
+    ItemSize: 1
+    X: '80'
+    Y: '190'
+
+#背包第4排
+#--------------------------#
+  Slot72:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 72
+    ItemSize: 1
+    X: '-80'
+    Y: '210'
+  Slot73:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 73
+    ItemSize: 1
+    X: '-60'
+    Y: '210'
+  Slot74:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 74
+    ItemSize: 1
+    X: '-40'
+    Y: '210'
+  Slot75:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 75
+    ItemSize: 1
+    X: '-20'
+    Y: '210'
+  Slot76:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 76
+    ItemSize: 1
+    X: '0'
+    Y: '210'
+  Slot77:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 77
+    ItemSize: 1
+    X: '20'
+    Y: '210'
+  Slot78:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 78
+    ItemSize: 1
+    X: '40'
+    Y: '210'
+  Slot79:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 79
+    ItemSize: 1
+    X: '60'
+    Y: '210'
+  Slot80:
+    Type: Slot
+    Hover: 'item'
+    Position: '2'
+    Image: 'gui/slot/slot3.png'
+    Width: 18
+    Height: 18
+    Slot: 80
+    ItemSize: 1
+    X: '80'
+    Y: '210'

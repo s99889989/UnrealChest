@@ -33,7 +33,7 @@ public class UnrealChestCommand implements CommandExecutor {
                 if(!player.isOp()){
                     return true;
                 }
-                Inventory fakeChestInventory = Bukkit.createInventory(null, 54, "普通仓库");
+                Inventory fakeChestInventory = Bukkit.createInventory(null, 54, "某一页箱子");
                 player.openInventory(fakeChestInventory);
             }
         }

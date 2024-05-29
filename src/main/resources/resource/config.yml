@@ -1,4 +1,28 @@
-Large Chest: 'EChest54'
-Chest: 'EChest27'
-大型儲物箱: 'EChest54'
-儲物箱: 'EChest27'
+ChestList:
+  2:
+    Title: 'Large Chest'
+    GUI: 'EChest54'
+
+  1:
+    Title: 'Chest'
+    GUI: 'EChest27'
+
+  A:
+    Title: '大型儲物箱'
+    GUI: 'HChest54'
+
+  4:
+    Title: '儲物箱'
+    GUI: 'EChest27'
+
+  5:
+    Title: '普通仓库'
+    GUI: 'EChest54'
+
+  Pattern1:
+    Title: '.*页箱子'
+    GUI: 'EChest54'
+
+  P2:
+    Title: '.*Page Chest'
+    GUI: 'EChest54'
